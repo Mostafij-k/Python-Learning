@@ -74,18 +74,17 @@ def myfunction():
 myfunction()
 # If you create a variable with the same name inside a function, this variable will be local
 # The global variable with the same name will remain as it was, global and with the original value.
-x="Machine Learning and Bioinformatics"
-def myfunction():
-    x='Cancer Research'
-    print("I want to learn python programming for "+ x)
-myfunction()
-print("I want to learn python programming for "+ x)
+x="Cancer Research"
+def my_function():
+    print("I want to learn python programming for ", x)
+my_function()
+print("I want to learn python programming for ", x)
 
-y = "awesome"
+x = "awesome"
 
 def myfunc():
-  y = "fantastic"
-  print("Python is " + y)
-myfunc()
+  global x
+  x = "fantastic"
+  print("Python is " + x)
 
-print("Python is " + y)
+myfunc()

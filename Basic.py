@@ -88,3 +88,12 @@ def myfunc():
   print("Python is " + x)
 
 myfunc()
+
+# Programming has three phase
+    # Input phase
+num1=int(input("Enter 1st number: ")) # int() function convert input string to integer
+num2=int(input("Enter 2nd number: "))
+    # Processing phase
+result=num1+num2
+    # Output phase
+print(result)

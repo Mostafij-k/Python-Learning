@@ -1,0 +1,2 @@
+This is python programming.
+I want learn python programming for machine learning.
